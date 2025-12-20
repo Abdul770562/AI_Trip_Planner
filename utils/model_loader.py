@@ -1,6 +1,17 @@
 import os
 from dotenv import load_dotenv
 from typing import Literal, Optional, Any
+
+# Literal → 🎯 Only these options
+# Optional → ❓ May exist or not
+# Any → 🧨 Wild west
+
+
+# Pydantic = Guard + Cleaner + Converter
+# 🛡️ Protects your code
+# 🧹 Cleans bad input
+# 🔄 Converts data types
+
 from pydantic import BaseModel, Field
 from utils.config_loader import load_config
 from langchain_groq import ChatGroq
