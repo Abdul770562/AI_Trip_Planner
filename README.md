@@ -17,33 +17,33 @@ Prerequisites:
 
 1. Clone the repo
 
-\`\`\`bash
+```bash
 git clone https://github.com/Abdul770562/AI_Trip_Planner.git
 cd AI_Trip_Planner
-\`\`\`
+```
 
 2. Create and activate virtual environment
 
 Windows (PowerShell):
 
-\`\`\`powershell
+```powershell
 python -m venv env
 .\env\Scripts\Activate.ps1
-\`\`\`
+```
 
 3. Install dependencies
 
-\`\`\`bash
+```bash
 pip install -r requirements.txt
 # optional: install in editable mode for development
 pip install -e .
-\`\`\`
+```
 
 ## ▶️ Run the Streamlit demo
 
-\`\`\`bash
+```bash
 streamlit run streamlit_app.py
-\`\`\`
+```
 
 Open the URL displayed by Streamlit (usually http://localhost:8501).
 
@@ -70,7 +70,7 @@ Contributions are welcome. Please:
 
 ## License
 
-No license file is included in this repository. If you want this project to be open-source, add a `LICENSE` file (e.g., MIT) to the root.
+No license file is included in this repository.
 
 ## Contact
 
